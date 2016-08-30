@@ -1,0 +1,3 @@
+#!/usr/bin/execlineb -P
+
+svnserve -d --foreground --config-file=/etc/svnserve.conf -r /data/repos

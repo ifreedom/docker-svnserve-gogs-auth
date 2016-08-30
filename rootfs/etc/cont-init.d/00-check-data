@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv sh
+
+if [ ! -f /data/authz ]; then
+    cp /etc/authz.sample /data/authz
+fi
+if [ ! -d /data/repos ]; then
+    mkdir -p /data/repos
+fi
+
+printf "[Auth]\nGOGS_HOST = $GOGS_HOST" >/etc/gogs_auth.conf
