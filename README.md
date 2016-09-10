@@ -1,5 +1,7 @@
 # Use Gogs for svnserve auth backend
 
+![](https://images.microbadger.com/badges/image/ifreedom/svnserve-gogs-auth.svg)
+
 Visit [Docker Hub](https://hub.docker.com/r/ifreedom/svnserve-gogs-auth/) see all available images and tags.
 
 ## Usage
